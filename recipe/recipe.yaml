@@ -1,6 +1,5 @@
 context:
   version: "0.2.0"
-  python_min: "3.11"
 
 package:
   name: gamma-lake
@@ -25,10 +24,10 @@ requirements:
     - ccflow >=0.8
     - deltalake
     - packaging
-    - polars >=0.20
+    - polars >=1.33.1
+    - polars-io-tools >=0.2.1,<0.3
     - pyarrow >=10
     - pydantic >=2
-    - ray-core
     - typing-extensions >=4.4.0
 
 tests:
